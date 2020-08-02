@@ -1,0 +1,185 @@
+body {
+    box-sizing: border-box;
+    background-color: white;
+    font-family: "Inconsolata", monospace;
+    height: 100vh;
+    margin: 0;
+}
+
+.logo {
+    max-width: 70px;
+    display: inline;
+    margin: 10px;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    text-align: center;
+}
+
+#x-modal {
+    align-self: flex-end;
+    margin-top: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-pic {
+    max-width: 300px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 1px;
+    width: 100%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-size: 17px;
+}
+
+.thumbnail {
+    height: auto;
+    max-width: 100px;
+    margin: 10px;
+}
+
+.find-pics {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    align-self: center;
+}
+
+.chat-messages-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    width: 70%;
+    overflow-y: scroll;
+    margin-top: 60px;
+}
+
+.chat-textarea {
+    width: 500px;
+    height: 80px;
+    font-size: 15px;
+    margin-top: 60px;
+}
+
+.chat-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message-name-date {
+    display: flex;
+}
+
+.name-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat {
+    border: solid black 1px;
+    margin: 5px 0;
+    width: 500px;
+    padding: 10px;
+}
+
+.chat-pics {
+    width: 120px;
+    height: auto;
+    object-fit: cover;
+    max-height: auto;
+    justify-self: center;
+}
+
+.message {
+    background-color: rgba(255, 0, 255, 0.1);
+    margin: 0 30px;
+    width: 500px;
+    padding: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: top;
+    width: auto;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    padding: 20px;
+    background-color: rgba(255, 0, 255, 0.1);
+    margin: 5px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.friends-buttons {
+    font-family: "Inconsolata", monospace;
+    background-color: white;
+    border: 1px black solid;
+    margin: 5px 0 1px 0;
+}
+
+.friends-buttons:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+.friends-name {
+    font-size: 17px;
+    color: purple;
+    text-decoration: underline;
+    padding: 1px;
+    margin-top: 3px;
+}
+
+.friends-name:hover {
+    color: lightpink;
+}
+
+.margin_bottom {
+    margin-bottom: 5%;
+}
+
+.bio-text {
+    width: 300px;
+    height: auto;
+    text-align: justify;
+    background-color: rgba(255, 0, 255, 0.1);
+    padding: 10px;
+}
+
+.about-me-bio {
+    margin-bottom: -10px;
+}
+
+.login-input {
+    margin: 5px; 
+}
+
+.center {
+    margin-top: 200px; 
+}
