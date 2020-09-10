@@ -1,7 +1,7 @@
 # SOCIALNETWORK 
 
 ### About
-This project is comparable to a social network such as Facebook or LinkedIn. It enables its user to find other users and engaging with them by making friend requests, accepting friend requrests and declining requests. There is also a public chat for all users. 
+This project is comparable to a social network such as Facebook or LinkedIn. It enables its user to find other users and to engage with them by making friend requests, accepting friend requests and declining requests. There is also a public chat for all users. 
 
 Frameworks/systems: React.js, Redux, Socket.io, SQL, Node.js/Express
 
